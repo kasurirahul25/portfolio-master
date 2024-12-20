@@ -156,7 +156,7 @@ body {
 
 :focus-visible { outline-offset: 4px; }
 
-::-webkit-scrollbar { width: 15px; }
+::-webkit-scrollbar { width: 3px; }
 
 ::-webkit-scrollbar-track { background-color: hsl(0, 0%, 95%); }
 
@@ -307,8 +307,9 @@ body {
 .rotate-img { display: none; }
 
 .hero {
-  background-image: url("../images/hero-bg.jpg");
-  background-repeat: no-repeat;
+  background-color:
+  rgb(30, 30, 30);
+background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding-block: 100px var(--section-padding);
